@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "dataPX <- read.csv(\"~/Downloads/historicalData_PX.csv\", sep=\";\")\ndataP <- dataPX[,c(1,3)]\ncolnames(dataP) <-c(\"datum\", \"cena\")\ndataP$datum <-as.Date(dataP$datum, \"%d.%m.%Y\")\ndataP$cena <- sub(\",\",\".\",dataP$cena)\ndataP$cena <- as.numeric(dataP$cena)\nmin(dataP[,2])\ntimeseries <- ggplot(data=dataP, aes(x=datum, y=cena)) +\n  geom_line() +\n  #geom_abline(intercept= mean(fin$cena[which(fin$kdo==\"Adam\")]),slope=0, lwd=1,linetype=\"dashed\",color=wes_palette(\"Darjeeling\")[1])+\n  #geom_abline(intercept= mean(fin$cena[which(fin$kdo==\"Anežka\")]),slope=0, lwd=1,linetype=\"dashed\",color=wes_palette(\"Darjeeling\")[2])+\n  geom_smooth(aes(group = 1),method = \"lm\", se = FALSE, colour =\"black\",linetype=\"dotted\")+\n  theme_hc() +\n  scale_color_manual(values = wes_palette(\"Darjeeling\"))+\n  theme(legend.position=\"top\")+\n  labs(x = \"Datum\", y = \"Cena\") \n  #scale_x_date(labels = date_format(\"%Y-%m-%d\"))\nggplotly(timeseries)\n\nconsumption$date <- paste(consumption$rok,\"-\",substr(consumption$q,2,2), sep=\"\")\nconsumption$date <-as.yearqtr(consumption$date)\n\ntimeseries2 <- ggplot(data=consumption, aes(x=date, y=consumption)) +\n  geom_line() +\n  #geom_abline(intercept= mean(fin$cena[which(fin$kdo==\"Adam\")]),slope=0, lwd=1,linetype=\"dashed\",color=wes_palette(\"Darjeeling\")[1])+\n  #geom_abline(intercept= mean(fin$cena[which(fin$kdo==\"Anežka\")]),slope=0, lwd=1,linetype=\"dashed\",color=wes_palette(\"Darjeeling\")[2])+\n  #geom_smooth(aes(group = 1),method = \"lm\", se = FALSE, colour =\"black\",linetype=\"dotted\")+\n  theme_hc() +\n  scale_color_manual(values = wes_palette(\"Darjeeling\"))+\n  theme(legend.position=\"top\")+\n  labs(x = \"Datum\", y = \"Cena\") \n#scale_x_date(labels = date_format(\"%Y-%m-%d\"))\nggplotly(timeseries2)\n\nspotreba_stale_ceny <- na.omit(spotreba_stale_ceny)\n\nspotreba_bezne_ceny <- spotreba_bezne_ceny[1:82,]\n\nspotreba_stale_ceny$deflator <- spotreba_stale_ceny$cons_adj/spotreba_bezne_ceny$cons_un",
+    "created" : 1475436163517.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "652722523",
+    "id" : "FB3759A0",
+    "lastKnownWriteTime" : 1475607778,
+    "last_content_update" : 1475607778,
+    "path" : "~/Documents/thesis/ts_px.R",
+    "project_path" : "ts_px.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

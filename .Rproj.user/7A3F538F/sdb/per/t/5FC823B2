@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1475607450274.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5FC823B2",
+    "lastKnownWriteTime" : 2,
+    "last_content_update" : 1475607450274,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ly049tljtz",
+        "caption" : "spotreba_stale_ceny",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=spotreba_stale_ceny&cache_key=ly049tljtz",
+        "displayedObservations" : 82,
+        "environment" : "",
+        "object" : "spotreba_stale_ceny",
+        "totalObservations" : 82,
+        "variables" : 2
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
