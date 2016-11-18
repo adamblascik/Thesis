@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "%%%-------------------------------------------------%%%\n%%% Sub document affidavit %%%\n%%%-------------------------------------------------%%% \n\n% \\part{Preface}\n\n\\chapter{Affidavit} \n\nI hereby declare that this document has been written only by the undersigned\nand without any assistance from third parties. Furthermore, I confirm that no\nsources have been used in the preparation of this document other than those\nindicated in the thesis itself. \n\n\\ostAffidavitSignatureLine{}\n",
+    "created" : 1479506325455.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4276655851",
+    "id" : "B6CC441",
+    "lastKnownWriteTime" : 1432171778,
+    "last_content_update" : 1432171778,
+    "path" : "~/Documents/thesis/usr/subdocuments/chapters/ost_affidavit_section.Rnw",
+    "project_path" : "usr/subdocuments/chapters/ost_affidavit_section.Rnw",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sweave"
+}
