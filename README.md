@@ -10,7 +10,9 @@ I am using Open-Science Thesis template
 
 General content:
 1. This thesis aims to deal with the phenomenon known as the Equity Premium Puzzle (EPP) first proposed by Shiller (1982) and popularized by  Mehra & Prescott (1985). According to their findings observed risk premium levels are significantly higher than allow any reasonable restrictions on risk aversion parameter of the utility function. The main goal of the thesis is to empirically examine the existence of the EPP in the Czech Republic, to identify its specifics and compare the obtained results for the Czech Republic with existing empirical research.
+
 2. There emerged a vast body of literature regarding Equity Premium Puzzle in the last two decades. The phenomenon has been found robust to geography and time period respectively. Detailed reviews can be found in Mehra (2003) or Kocherlakota(1996). Many plausible explanations were offered, including the ones from behavioral economics by e.g. Benartzi & Thaler (1993) or extreme value theory by Julliard & Ghosh (2012). However, there is no general acceptance about the underlying nature of the EPP among economists so far. More interestingly, the EPP was recently found even stronger by Azeredo (2014) than authors of the seminal paper thought.
+
 3. In the theoretical part of my thesis i provide literature review with focus on various explanations of the EPP. In the analytical part I follow the modeling strategy of Mehra & Prescott. I set up a simple model of an economy, satisfying general equilibrium assumptions and estimate its utility function risk aversion parameter using time series from Prague stock exchange and consumption CAPM. I examine sensitivity and robustness of the obtained results.	
 
 
